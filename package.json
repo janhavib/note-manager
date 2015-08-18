@@ -1,0 +1,10 @@
+{
+  "name": "note-manager",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "express": "4.0.0",
+    "lowdb": "^0.10.2",
+    "ng-table": "^0.5.4",
+    "underscore-db": "^0.9.0"
+  }
+}

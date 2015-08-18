@@ -1,0 +1,17 @@
+<div class="container">
+    <h3 ng-show=!displayMsg> Your notes </h3>
+    <h3 ng-show=displayMsg>{{msg}}</h3>
+    <table id="noteList" ng-table class="table table-striped" border="1"> 
+        <tr ng-repeat="note in notes">
+            <td data-title="'NoteId'">
+                <a href="#/notes/{{note.id}}">{{note.id}}</a>
+            </td>
+            <td data-title="'NoteDesc'">
+                {{note.noteDesc}}
+            </td>
+            <td data-title="'NoteDate'">
+                {{note.noteDate}}
+            </td>
+        </tr>
+    </table>
+</div>

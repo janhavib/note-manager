@@ -1,0 +1,14 @@
+{
+  "notes": [
+    {
+      "id": 1,
+      "noteDesc": "This is my first note.",
+      "noteDate": "2015-08-18T14:51:14.917Z"
+    },
+    {
+      "id": 2,
+      "noteDesc": "This is my second note",
+      "noteDate": "2015-08-18T15:06:54.738Z"
+    }
+  ]
+}
